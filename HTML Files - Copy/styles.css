@@ -1,0 +1,114 @@
+body {
+    font-family: 'Georgia', sans-serif;
+    margin: 0;
+    background-color: #eaddc8;
+}
+
+.header{
+    text-align: center;
+}
+
+
+.container{
+    font: normal;
+    width: 200%;
+}
+
+.titles{
+    color:#333;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.nav {
+    background-color: #f57070;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.section {
+    background: #f4f4f4;  
+    padding: 20px;
+    text-align: justify;
+    align-items: flex-start; 
+    }
+
+.nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+}
+
+.nav ul li {
+    float: left; 
+}
+
+.nav ul li a {
+    display: block; 
+    color: white; 
+    text-align: center; 
+    padding: 14px 20px;
+    text-decoration: none; 
+}
+
+
+.nav ul li a:hover {
+    background-color: #b13d3d;
+    color: black;
+}
+
+p {
+    line-height: 2;
+    }
+
+    .infolink{
+        font-weight: bold;
+    }
+
+    .footer {
+        background: #b9d6c1;            
+        text-align: center;
+        padding: 5px;
+        width: 100%;
+        color: black;
+        padding-top: 20px;
+        border-top: 10px solid #eaddc8;
+        margin-bottom: auto;
+    }
+    
+    .footer-section {
+        background-color: #eaddc8;
+        padding: 20px 0; 
+        text-align: center; 
+    }
+    
+    .footer-content {
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .footer-item {
+        display: inline-block;
+        margin: 0 10px;
+        vertical-align: top;
+        max-width: 300px;
+    }
+    
+    .footer-image {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    
+    .footer-section h2 {
+        margin-bottom: 20px;
+    }
+
+    table {
+        margin-top: 130px;
+        margin-right: 25px;
+        margin-left:25px;
+        float: right;
+        border-collapse: collapse;
+        border: 2px solid black;
+    }
